@@ -1,5 +1,5 @@
 import numpy as np
-
+#QLA
 
 class Agent():
     def __init__(self, lr,gamma,n_actions,n_states,eps_start,eps_end,eps_dec):
