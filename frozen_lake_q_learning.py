@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from q_learning_agent import Agent
 import numpy as np
 
-
+#Frozen Lake.py
 if __name__ == '__main__':
     env = gym.make('FrozenLake-v0')
     agent = Agent( lr=0.001,gamma=0.9,n_actions=4,  n_states=16,eps_start=1.0,eps_end=0.01,eps_dec=0.9999995)
